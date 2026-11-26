@@ -13,6 +13,15 @@ Ada tiga cara memakainya, dengan mesin pemindai yang sama:
 
 ![Tampilan GUI sapu](docs/screenshot-gui.png)
 
+## Persyaratan
+
+| Komponen | Kebutuhan |
+|---|---|
+| Sistem | Linux (diuji untuk Ubuntu/Kubuntu dengan KDE Plasma; distro lain juga bisa) |
+| CLI & TUI | Python 3.8+ saja, tanpa pustaka tambahan |
+| GUI | PyQt6 (`sudo apt install python3-pyqt6`) atau PySide6 |
+| Opsional | `xdg-open`/Dolphin untuk membuka lokasi, Konsole untuk menjalankan perintah sistem |
+
 ## Instalasi
 
 ```bash
